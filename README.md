@@ -1,6 +1,6 @@
 # Official Eviratec Schema Repository
 
-The GIT repository of schemas used on our APIs.
+This repository contains schemas detailing types of models used in Eviratec API Operations.
 
 ## Path Prefixes
 
