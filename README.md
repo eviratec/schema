@@ -6,6 +6,10 @@ This repository contains schemas detailing types of models used in Eviratec API 
 
 * [JSON Schema](http://json-schema.org/documentation.html)
 
+## Tools
+
+* [Ajv: Another JSON Schema Validator](https://github.com/epoberezkin/ajv)
+
 ## License
 
 Copyright (c) 2017 Callan Peter Milne
