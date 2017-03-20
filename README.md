@@ -12,7 +12,7 @@ This repository contains schemas detailing types of models used in Eviratec API 
 
 ## A note on inconsistencies
 
-As the Eviratec SaaS CRM comes together, there will be inconsistencies between data structures.  If in doubt about schemas: trust this repo.
+As the Eviratec SaaS CRM comes together, there will be inconsistencies between repos around data structures.  If in doubt about schemas: trust this repo.
 
 ## License
 
