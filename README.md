@@ -10,6 +10,10 @@ This repository contains schemas detailing types of models used in Eviratec API 
 
 * [Ajv: Another JSON Schema Validator](https://github.com/epoberezkin/ajv)
 
+## A note on inconsistencies
+
+As the Eviratec SaaS CRM comes together, there will be inconsistencies between data structures.  If in doubt about schemas: trust this repo.
+
 ## License
 
 Copyright (c) 2017 Callan Peter Milne
