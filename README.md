@@ -2,9 +2,9 @@
 
 This repository contains schemas detailing types of models used in Eviratec API Operations.
 
-## Path Prefixes
+## Further reading
 
-* [JSON Schema](http://json-schema.org/documentation.html) prefix `json/`
+* [JSON Schema](http://json-schema.org/documentation.html)
 
 ## License
 
