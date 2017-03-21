@@ -8,7 +8,7 @@
   "properties": {
     "date": { "type": "string" },
     "source": { "enum": [ "web_form", "phone", "in_person" ] },
-    "replyTo": { "$ref": "https://raw.githubusercontent.com/eviratec/schema/master/v1/contact/person.json#" },
+    "reply_to": { "$ref": "https://raw.githubusercontent.com/eviratec/schema/master/v1/contact/person.json#" },
     "content": { "type": "string" }
   }
 }
