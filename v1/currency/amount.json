@@ -4,7 +4,7 @@
   "description": "schema for a currency amount",
   "type": "object",
   "additionalProperties": false,
-  "required": [ "currency", "amount" ],
+  "required": [ "currency", "units" ],
   "properties": {
     "currency": { "$ref": "https://raw.githubusercontent.com/eviratec/schema/master/v1/currency.json#" },
     "units": {
