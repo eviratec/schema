@@ -13,7 +13,7 @@
       "phone": "+61234567890"
     },
     "last_login": {
-      // ... v1/auth/attempt.json
+      // v1/authentication/attempt.json
     },
     "date_created": "2017-03-24 23:41:56.235902530+11:00",
     "is_locked": false,
