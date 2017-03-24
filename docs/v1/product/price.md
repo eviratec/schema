@@ -1,4 +1,4 @@
-# eviratec / schema / v1 / customer / account
+# eviratec / schema / v1 / product / price
 
 ## Examples
 
