@@ -14,8 +14,9 @@
     "is_resolved": true,
     "resolution": {
       "id": "79de849f-93d4-4882-9b6f-f29732ffc4a0",
-      "type": "failure",
+      "type": "error",
       "reason": "Invalid username/password combination",
+      "has_failed": true
     }
   }
 }
