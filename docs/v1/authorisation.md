@@ -1,4 +1,4 @@
-# eviratec / schema / v1 / auth / profile
+# eviratec / schema / v1 / authorisation
 
 ## Examples
 
@@ -12,7 +12,7 @@
       "email": "john.smith@noreply.eviratec.software",
       "phone": "+61234567890"
     },
-    "lastLogin": {
+    "last_login": {
       // ... v1/auth/attempt.json
     },
     "date_created": "2017-03-24 23:41:56.235902530+11:00",
