@@ -2,6 +2,51 @@
 
 This repository contains schemas detailing types of models used in Eviratec API Operations.
 
+## Schemas
+
+### Apps
+
+* **Schema** [/v1/app/client.json](https://github.com/eviratec/schema/blob/master/v1/app/client.json)
+* **Schema** [/v1/app/user.json](https://github.com/eviratec/schema/blob/master/v1/app/user.json)
+
+### Contacts
+
+* **Schema** [/v1/contact.json](https://github.com/eviratec/schema/blob/master/v1/contact.json)
+* **Schema** [/v1/contact/message.json](https://github.com/eviratec/schema/blob/master/v1/contact/message.json)
+* **Schema** [/v1/contact/person.json](https://github.com/eviratec/schema/blob/master/v1/contact/person.json)
+
+### Currencies
+
+* **Schema** [/v1/currency.json](https://github.com/eviratec/schema/blob/master/v1/currency.json)
+* **Schema** [/v1/currency/amount.json](https://github.com/eviratec/schema/blob/master/v1/currency/amount.json)
+
+### Customers
+
+* **Schema** [/v1/customer.json](https://github.com/eviratec/schema/blob/master/v1/customer.json)
+* **Schema** [/v1/customer/account.json](https://github.com/eviratec/schema/blob/master/v1/customer/account.json)
+
+### Products
+
+* **Schema** [/v1/product.json](https://github.com/eviratec/schema/blob/master/v1/product.json)
+* **Schema** [/v1/product/price.json](https://github.com/eviratec/schema/blob/master/v1/product/price.json)
+
+### Services
+
+* **Schema** [/v1/service.json](https://github.com/eviratec/schema/blob/master/v1/service.json)
+* **Schema** [/v1/service/price.json](https://github.com/eviratec/schema/blob/master/v1/service/price.json)
+
+### Vendors
+
+* **Schema** [/v1/vendor/app.json](https://github.com/eviratec/schema/blob/master/v1/vendor/app.json)
+
+## Documentation
+
+* **Documentation** [/v1/authorisation.md](https://github.com/eviratec/schema/blob/master/docs/v1/authorisation.md)
+* **Documentation** [/v1/authentication/attempt.md](https://github.com/eviratec/schema/blob/master/docs/v1/authentication/attempt.md)
+* **Documentation** [/v1/customer.md](https://github.com/eviratec/schema/blob/master/docs/v1/customer.md)
+* **Documentation** [/v1/customer/account.md](https://github.com/eviratec/schema/blob/master/docs/v1/customer/account.md)
+* **Documentation** [/v1/product/price.md](https://github.com/eviratec/schema/blob/master/docs/v1/product/price.md)
+
 ## Further reading
 
 * [JSON Schema](http://json-schema.org/documentation.html)
