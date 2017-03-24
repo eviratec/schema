@@ -1,0 +1,22 @@
+{
+  "id": "https://raw.githubusercontent.com/eviratec/schema/master/v1/product.json#",
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "description": "schema for a product",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [ "id", "code", "label" ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "format": "uuid"
+    },
+    "code": {
+      "type": "string",
+      "maxLength": 64
+    },
+    "label": {
+      "type": "string",
+      "maxLength": 255
+    },
+  }
+}
