@@ -4,8 +4,12 @@
   "description": "schema for a customer",
   "type": "object",
   "additionalProperties": false,
-  "required": [ "contact", "accounts", "date_opened", "is_suspended" ],
+  "required": [ "id", "contact", "accounts", "date_opened", "is_suspended" ],
   "properties": {
+    "id": {
+      "type": "string",
+      "format": "uuid"
+    },
     "contact": { "$ref": "https://raw.githubusercontent.com/eviratec/schema/master/v1/contact.json#" },
     "accounts": {
       "type": "array",
