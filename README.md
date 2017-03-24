@@ -42,6 +42,7 @@ This repository contains schemas detailing types of models used in Eviratec API 
 ## Documentation
 
 * **Documentation** [/v1/authorisation.md](https://github.com/eviratec/schema/blob/master/docs/v1/authorisation.md)
+* **Documentation** [/v1/authorisation/token.md](https://github.com/eviratec/schema/blob/master/docs/v1/authorisation/token.md)
 * **Documentation** [/v1/authentication/attempt.md](https://github.com/eviratec/schema/blob/master/docs/v1/authentication/attempt.md)
 * **Documentation** [/v1/customer.md](https://github.com/eviratec/schema/blob/master/docs/v1/customer.md)
 * **Documentation** [/v1/customer/account.md](https://github.com/eviratec/schema/blob/master/docs/v1/customer/account.md)
