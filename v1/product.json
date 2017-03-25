@@ -4,7 +4,7 @@
   "description": "schema for a product",
   "type": "object",
   "additionalProperties": false,
-  "required": [ "id", "code", "label" ],
+  "required": [ "id", "code", "headline", "full_name" ],
   "properties": {
     "id": {
       "type": "string",
@@ -12,10 +12,17 @@
     },
     "code": {
       "type": "string",
+      "description": "E.g. YEMAYA2017GA",
       "maxLength": 64
     },
-    "label": {
+    "headline": {
       "type": "string",
+      "description": "E.g. 'Yemaya 2017 GA Ticket'",
+      "maxLength": 64
+    },
+    "full_name": {
+      "type": "string",
+      "description": "E.g. 'Yemaya 2017 General Admission Ticket'",
       "maxLength": 255
     },
   }
