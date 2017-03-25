@@ -4,7 +4,7 @@
   "description": "schema for a product",
   "type": "object",
   "additionalProperties": false,
-  "required": [ "id", "code", "headline", "full_name" ],
+  "required": [ "id", "code", "headline", "full_name", "prices" ],
   "properties": {
     "id": {
       "type": "string",
@@ -25,5 +25,10 @@
       "description": "E.g. 'Yemaya 2017 General Admission Ticket'",
       "maxLength": 255
     },
+    "prices": {
+      "type": "array",
+      "items": { "$ref": "https://raw.githubusercontent.com/eviratec/schema/master/v1/product/price.json#" },
+      "uniqueItems": true
+    }
   }
 }
