@@ -4,7 +4,7 @@
   "description": "schema for a product",
   "type": "object",
   "additionalProperties": false,
-  "required": [ "id", "code", "headline", "full_name", "prices" ],
+  "required": [ "id", "code", "headline", "full_name", "prices", "date_added", "is_purchaseable" ],
   "properties": {
     "id": {
       "type": "string",
@@ -29,6 +29,14 @@
       "type": "array",
       "items": { "$ref": "https://raw.githubusercontent.com/eviratec/schema/master/v1/product/price.json#" },
       "uniqueItems": true
+    },
+    "date_added": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "is_purchaseable": {
+      "type": "boolean",
+      "value": false
     }
   }
 }

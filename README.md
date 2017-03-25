@@ -27,7 +27,7 @@ This repository contains schemas detailing types of models used in Eviratec API 
 
 ### Products
 
-* **Schema** [/v1/product.json](https://github.com/eviratec/schema/blob/master/v1/product.json)
+* **Schema** [/v1/product.json](https://github.com/eviratec/schema/blob/master/v1/product.json) | [**Documentation**](https://github.com/eviratec/schema/blob/master/docs/v1/product.md)
 * **Schema** [/v1/product/price.json](https://github.com/eviratec/schema/blob/master/v1/product/price.json) | [**Documentation**](https://github.com/eviratec/schema/blob/master/docs/v1/product/price.md)
 
 ### Services
@@ -46,6 +46,7 @@ This repository contains schemas detailing types of models used in Eviratec API 
 * **Documentation** [/v1/authentication/attempt.md](https://github.com/eviratec/schema/blob/master/docs/v1/authentication/attempt.md)
 * **Documentation** [/v1/customer.md](https://github.com/eviratec/schema/blob/master/docs/v1/customer.md)
 * **Documentation** [/v1/customer/account.md](https://github.com/eviratec/schema/blob/master/docs/v1/customer/account.md)
+* **Documentation** [/v1/product.md](https://github.com/eviratec/schema/blob/master/docs/v1/product.md)
 * **Documentation** [/v1/product/price.md](https://github.com/eviratec/schema/blob/master/docs/v1/product/price.md)
 
 ## Further reading
