@@ -14,7 +14,7 @@
       "type": "string",
       "description": "E.g: WordPress Development"
     },
-    "tagLine": {
+    "tag_line": {
       "type": "string",
       "description": "E.g: Plugins, themes, and cloud"
     },
