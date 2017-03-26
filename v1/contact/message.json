@@ -4,8 +4,12 @@
   "description": "schema for a contact message",
   "type": "object",
   "additionalProperties": false,
-  "required": [ "date", "source", "replyTo", "content" ],
+  "required": [ "id", "date", "source", "replyTo", "content" ],
   "properties": {
+    "id": {
+      "type": "string",
+      "format": "uuid"
+    },
     "date": {
       "type": "string",
       "format": "date-time"
