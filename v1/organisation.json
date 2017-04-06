@@ -1,0 +1,22 @@
+{
+  "id": "https://raw.githubusercontent.com/eviratec/schema/master/v1/organisation.json#",
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "description": "schema for an organisation",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [ "id", "name" ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "format": "uuid"
+    },
+    "name": {
+      "type": "string",
+      "format": "uuid"
+    },
+    "date_created": {
+      "type": "string",
+      "format": "date-time"
+    },
+  }
+}
