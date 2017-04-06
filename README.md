@@ -14,6 +14,7 @@ This repository contains schemas detailing types of models used in Eviratec API 
 * **Schema** [/v1/contact.json](https://github.com/eviratec/schema/blob/master/v1/contact.json)
 * **Schema** [/v1/contact/message.json](https://github.com/eviratec/schema/blob/master/v1/contact/message.json)
 * **Schema** [/v1/contact/person.json](https://github.com/eviratec/schema/blob/master/v1/contact/person.json)
+* **Schema** [/v1/contact/detail.json](https://github.com/eviratec/schema/blob/master/v1/contact/detail.json)
 
 ### Currencies
 
@@ -25,6 +26,17 @@ This repository contains schemas detailing types of models used in Eviratec API 
 * **Schema** [/v1/customer.json](https://github.com/eviratec/schema/blob/master/v1/customer.json) | [**Documentation**](https://github.com/eviratec/schema/blob/master/docs/v1/customer.md)
 * **Schema** [/v1/customer/account.json](https://github.com/eviratec/schema/blob/master/v1/customer/account.json) | [**Documentation**](https://github.com/eviratec/schema/blob/master/docs/v1/customer/account.md)
 
+### Organisations
+
+* **Schema** [/v1/organisation.json](https://github.com/eviratec/schema/blob/master/v1/organisation.json)
+* **Schema** [/v1/organisation/customer.json](https://github.com/eviratec/schema/blob/master/v1/organisation/customer.json)
+* **Schema** [/v1/organisation/vendor.json](https://github.com/eviratec/schema/blob/master/v1/organisation/vendor.json)
+
+### People
+
+* **Schema** [/v1/person.json](https://github.com/eviratec/schema/blob/master/v1/person.json)
+* **Schema** [/v1/person/name.json](https://github.com/eviratec/schema/blob/master/v1/person/name.json)
+
 ### Products
 
 * **Schema** [/v1/product.json](https://github.com/eviratec/schema/blob/master/v1/product.json) | [**Documentation**](https://github.com/eviratec/schema/blob/master/docs/v1/product.md)
@@ -33,6 +45,7 @@ This repository contains schemas detailing types of models used in Eviratec API 
 ### Services
 
 * **Schema** [/v1/service.json](https://github.com/eviratec/schema/blob/master/v1/service.json)
+* **Schema** [/v1/service/group.json](https://github.com/eviratec/schema/blob/master/v1/service/group.json)
 * **Schema** [/v1/service/price.json](https://github.com/eviratec/schema/blob/master/v1/service/price.json)
 
 ### Vendors
