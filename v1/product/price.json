@@ -10,7 +10,10 @@
       "type": "string",
       "format": "uuid"
     },
-    "type": { "$ref": "https://raw.githubusercontent.com/eviratec/schema/master/v1/product/price/type.json#" },
+    "type": {
+      "type": "string",
+      "maxLength": 18
+    },
     "amount": { "$ref": "https://raw.githubusercontent.com/eviratec/schema/master/v1/currency/amount.json#" },
     "is_public": {
       "type": "boolean",
